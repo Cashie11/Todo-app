@@ -15,12 +15,26 @@ body, html {
 }
 
 table, td, th {
-    border: 1px solid #aaa;
+    border: 3px solid #aaa;
+
+}
+
+td a{
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.newanchor{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(209, 209, 243);
+    border-radius: 10px;
+
 }
 
 table {
     border-collapse: collapse;
-    width: 100%;
 }
 
 th {
@@ -29,7 +43,9 @@ th {
 
 td {
     text-align: center;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .form {
@@ -39,3 +55,5 @@ td {
 #content {
     width: 70%;
 }
+
+
